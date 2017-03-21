@@ -2,7 +2,8 @@
   list-style-type: none; }
 
 .fa {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  display: inline-block; }
 
 header {
   background-color: #281400;
@@ -66,6 +67,23 @@ main {
   main .soldout a:hover,
   main .soldout a:visited {
     color: grey;
+    text-decoration: none; }
+
+footer {
+  background-color: #0f3e57; }
+  footer h3 {
+    color: white; }
+  footer ul {
+    padding: 0; }
+    footer ul li {
+      color: #c9c4bf; }
+      footer ul li p {
+        display: inline-block; }
+  footer a,
+  footer a:focus,
+  footer a:hover,
+  footer a:visited {
+    color: #c9c4bf;
     text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

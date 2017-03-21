@@ -19,8 +19,11 @@ $beige: #a28f61;
     list-style-type: none;
 }
 
+
+
 .fa {
     @include fontsize(1.5em);
+    display: inline-block;
 }
 
 header {
@@ -47,7 +50,6 @@ header {
     i {
         color: $darkerWhite;
         float: right;
-        // display: inline-block;
     }
 
     #headerContent {
@@ -94,7 +96,6 @@ main {
             }
         }
     }
-
     .buy {
         a,
         a:focus,
@@ -120,5 +121,27 @@ main {
         a:visited {
             @include link(grey);
         }
+    }
+}
+
+footer {
+    background-color: #0f3e57;
+    h3 {
+        color: $white;
+    }
+    ul {
+        padding: 0;
+        li {
+            color: $darkerWhite;
+            p {
+                display: inline-block;
+            }
+        }
+    }
+    a,
+    a:focus,
+    a:hover,
+    a:visited {
+        @include link($darkerWhite);
     }
 }
