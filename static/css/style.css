@@ -1,3 +1,32 @@
+* {
+  list-style-type: none; }
 
+.fa {
+  font-size: 2rem; }
+
+header {
+  background-color: #281400;
+  color: white; }
+  header nav ul {
+    display: flex;
+    justify-content: space-around; }
+    header nav ul li a, header nav ul li a:hover, header nav ul li a:visited, header nav ul li a:focus {
+      color: #c9c4bf;
+      text-decoration: none;
+      font-size: 2rem; }
+  header i {
+    color: #c9c4bf;
+    float: right;
+    font-size: 5rem; }
+  header #headerContent {
+    text-align: center;
+    padding: 20rem; }
+    header #headerContent h1, header #headerContent h2 {
+      font-size: 5rem; }
+    header #headerContent button {
+      background-color: #a28f61;
+      padding: 1rem;
+      border-radius: 3px;
+      border: none; }
 
 /*# sourceMappingURL=style.css.map */
