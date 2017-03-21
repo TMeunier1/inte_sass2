@@ -34,4 +34,38 @@ header {
       border: none;
       width: 30rem; }
 
+main {
+  background-color: #F7F7F7; }
+  main article {
+    margin-top: 1em; }
+    main article section {
+      background-color: white;
+      width: 92%;
+      border: 1px solid lightgrey; }
+      main article section h2 {
+        font-size: 0.9em; }
+      main article section p:first-of-type {
+        color: grey; }
+      main article section p {
+        color: black;
+        font-size: 0.9em; }
+  main .buy a,
+  main .buy a:focus,
+  main .buy a:hover,
+  main .buy a:visited {
+    color: #a28f61;
+    text-decoration: none; }
+  main .onsale a,
+  main .onsale a:focus,
+  main .onsale a:hover,
+  main .onsale a:visited {
+    color: orange;
+    text-decoration: none; }
+  main .soldout a,
+  main .soldout a:focus,
+  main .soldout a:hover,
+  main .soldout a:visited {
+    color: grey;
+    text-decoration: none; }
+
 /*# sourceMappingURL=style.css.map */

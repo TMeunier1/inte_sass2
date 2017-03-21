@@ -11,7 +11,6 @@ $beige: #a28f61;
 @mixin padding($size) {
     padding: $size;
 }
-
 @mixin margin($size) {
     margin: $size;
 }
@@ -67,6 +66,59 @@ header {
             border-radius: 3px;
             border: none;
             width: 30rem;
+        }
+    }
+}
+
+main {
+    background-color: #F7F7F7;
+
+    article {
+        margin-top: 1em;
+        section {
+            background-color: $white;
+            width: 92%;
+            border: 1px solid lightgrey;
+
+            h2 {
+                @include fontsize(0.9em)
+            }
+
+            p:first-of-type {
+                color: grey;
+            }
+
+            p {
+                color: black;
+                @include fontsize(0.9em)
+            }
+        }
+    }
+
+    .buy {
+        a,
+        a:focus,
+        a:hover,
+        a:visited {
+            @include link($beige);
+        }
+    }
+
+    .onsale {
+        a,
+        a:focus,
+        a:hover,
+        a:visited {
+            @include link(orange);
+        }
+    }
+
+    .soldout {
+        a,
+        a:focus,
+        a:hover,
+        a:visited {
+            @include link(grey);
         }
     }
 }
