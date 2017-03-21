@@ -1,18 +1,19 @@
 $white: white;
 $darkerWhite: #c9c4bf;
 $beige: #a28f61;
-
 @mixin link($color) {
     color: $color;
     text-decoration: none;
 }
-
-@mixin fontsize($rem) {
-    font-size: $rem;
+@mixin fontsize($size) {
+    font-size: $size;
+}
+@mixin padding($size) {
+    padding: $size;
 }
 
-@mixin padding($rem) {
-    padding:$rem;
+@mixin margin($size) {
+    margin: $size;
 }
 
 * {
@@ -20,7 +21,7 @@ $beige: #a28f61;
 }
 
 .fa {
-    @include fontsize(2rem);
+    @include fontsize(1.5em);
 }
 
 header {
@@ -31,31 +32,41 @@ header {
         ul {
             display: flex;
             justify-content: space-around;
+
             li {
-                a, a:hover, a:visited, a:focus {
+                a,
+                a:focus,
+                a:hover,
+                a:visited {
                     @include link(#c9c4bf);
                     @include fontsize(2rem);
                 }
             }
         }
     }
+
     i {
         color: $darkerWhite;
         float: right;
-        @include fontsize(5rem);
         // display: inline-block;
     }
+
     #headerContent {
         text-align: center;
         @include padding(20rem);
-            h1, h2 {
-                @include fontsize(5rem);
-            }
-            button {
-                background-color: $beige;
-                @include padding(1rem);
-                border-radius: 3px;
-                border: none;
-            }
+
+        h1,
+        h2 {
+            @include fontsize(5rem);
+        }
+
+        button {
+            background-color: $beige;
+            @include padding(1rem);
+            @include margin (1em);
+            border-radius: 3px;
+            border: none;
+            width: 30rem;
+        }
     }
 }
