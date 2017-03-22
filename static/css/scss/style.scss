@@ -84,12 +84,8 @@ main {
 
     article {
         margin: 1em 0;
-
-        section {
-            background-color: $white;
-            width: 92%;
-            border: 1px solid lightgrey;
-        }
+        background-color: $white;
+        border: 1px solid lightgrey;
     }
 
     .buy {
@@ -148,6 +144,12 @@ footer {
 }
 
 #mainpage {
+    section {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
     a {
         h2 {
             @include fontsize(0.9em)

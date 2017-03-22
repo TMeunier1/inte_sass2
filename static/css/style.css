@@ -44,11 +44,9 @@ header {
 main {
   background-color: #F7F7F7; }
   main article {
-    margin: 1em 0; }
-    main article section {
-      background-color: white;
-      width: 92%;
-      border: 1px solid lightgrey; }
+    margin: 1em 0;
+    background-color: white;
+    border: 1px solid lightgrey; }
   main .buy a,
   main .buy a:focus,
   main .buy a:hover,
@@ -85,6 +83,11 @@ footer {
     color: #c9c4bf;
     text-decoration: none; }
 
+#mainpage section {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around; }
 #mainpage a h2 {
   font-size: 0.9em; }
 #mainpage a p:first-of-type {
