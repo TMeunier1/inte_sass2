@@ -34,7 +34,7 @@ header {
 
     nav {
         text-align: center;
-        margin-left: 5em;
+        @include margin(auto);
 
         ul {
             display: flex;
