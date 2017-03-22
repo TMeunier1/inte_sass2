@@ -8,16 +8,21 @@
 header {
   background-color: #281400;
   color: white; }
-  header nav ul {
-    display: flex;
-    justify-content: space-around; }
-    header nav ul li a,
-    header nav ul li a:focus,
-    header nav ul li a:hover,
-    header nav ul li a:visited {
-      color: #c9c4bf;
-      text-decoration: none;
-      font-size: 2rem; }
+  header nav {
+    text-align: center;
+    margin-left: 5em; }
+    header nav ul {
+      display: flex;
+      justify-content: space-around;
+      width: 25em;
+      margin: auto; }
+      header nav ul li a,
+      header nav ul li a:focus,
+      header nav ul li a:hover,
+      header nav ul li a:visited {
+        color: #c9c4bf;
+        text-decoration: none;
+        font-size: 2rem; }
   header i {
     color: #c9c4bf;
     float: right; }
@@ -38,7 +43,7 @@ header {
 main {
   background-color: #F7F7F7; }
   main article {
-    margin-top: 1em; }
+    margin: 1em 0; }
     main article section {
       background-color: white;
       width: 92%;
