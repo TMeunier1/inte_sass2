@@ -49,13 +49,6 @@ main {
       background-color: white;
       width: 92%;
       border: 1px solid lightgrey; }
-      main article section h2 {
-        font-size: 0.9em; }
-      main article section p:first-of-type {
-        color: grey; }
-      main article section p {
-        color: black;
-        font-size: 0.9em; }
   main .buy a,
   main .buy a:focus,
   main .buy a:hover,
@@ -91,6 +84,14 @@ footer {
   footer a:visited {
     color: #c9c4bf;
     text-decoration: none; }
+
+#mainpage a h2 {
+  font-size: 0.9em; }
+#mainpage a p:first-of-type {
+  color: grey; }
+#mainpage a p {
+  color: black;
+  font-size: 0.9em; }
 
 #product #descriproduct {
   border-bottom: 1px solid black;

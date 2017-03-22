@@ -89,19 +89,6 @@ main {
             background-color: $white;
             width: 92%;
             border: 1px solid lightgrey;
-
-            h2 {
-                @include fontsize(0.9em)
-            }
-
-            p:first-of-type {
-                color: grey;
-            }
-
-            p {
-                color: black;
-                @include fontsize(0.9em)
-            }
         }
     }
 
@@ -157,6 +144,23 @@ footer {
     a:hover,
     a:visited {
         @include link($darkerWhite);
+    }
+}
+
+#mainpage {
+    a {
+        h2 {
+            @include fontsize(0.9em)
+        }
+
+        p:first-of-type {
+            color: grey;
+        }
+
+        p {
+            color: black;
+            @include fontsize(0.9em)
+        }
     }
 }
 
