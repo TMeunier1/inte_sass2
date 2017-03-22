@@ -30,6 +30,7 @@ $beige: #a28f61;
 header {
     background-color: #281400;
     color: $white;
+    @include padding(2em);
 
     nav {
         text-align: center;
