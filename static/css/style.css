@@ -112,4 +112,21 @@ footer {
   #product #price button {
     padding: 2em; }
 
+#panier section {
+  margin: 1em 0; }
+  #panier section h2 {
+    margin: 0 0 0.5em 0; }
+#panier #placeorder {
+  border-top: 1px solid black; }
+  #panier #placeorder span {
+    display: inline-block;
+    margin: 3em 2em;
+    padding: 1em;
+    border: 1px solid black; }
+  #panier #placeorder button {
+    background-color: green;
+    padding: 1em;
+    border: none;
+    border-radius: 3px; }
+
 /*# sourceMappingURL=style.css.map */
