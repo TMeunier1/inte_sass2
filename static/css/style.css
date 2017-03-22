@@ -83,18 +83,24 @@ footer {
     color: #c9c4bf;
     text-decoration: none; }
 
-#mainpage section {
-  margin: auto;
-  width: 90%;
-  display: flex;
-  justify-content: space-around; }
-#mainpage a h2 {
-  font-size: 0.9em; }
-#mainpage a p:first-of-type {
-  color: grey; }
-#mainpage a p {
-  color: black;
-  font-size: 0.9em; }
+#mainpage {
+  text-align: center; }
+  #mainpage h2 {
+    margin: 0;
+    padding: 2em;
+    font-size: 3em; }
+  #mainpage section {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around; }
+  #mainpage a h2 {
+    font-size: 0.9em; }
+  #mainpage a p:first-of-type {
+    color: grey; }
+  #mainpage a p {
+    color: black;
+    font-size: 0.9em; }
 
 #product #descriproduct {
   border-bottom: 1px solid black;

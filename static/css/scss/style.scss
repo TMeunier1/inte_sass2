@@ -144,9 +144,15 @@ footer {
 }
 
 #mainpage {
+    text-align: center;
+    h2 {
+        @include margin(0);
+        @include padding(2em);
+        @include fontsize(3em);
+    }
     section {
         margin: auto;
-        width: 90%;
+        width: 60%;
         display: flex;
         justify-content: space-around;
     }
