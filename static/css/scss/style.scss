@@ -198,12 +198,15 @@ footer {
 
         p {
             display: inline-block;
-            background-color: green;
             @include padding(2em);
+            border: 1px solid black;
         }
 
-        button {
+        a {
             @include padding(2em);
+            border: 1px solid black;
+            color: black;
+            background-color: green;
         }
     }
 }
