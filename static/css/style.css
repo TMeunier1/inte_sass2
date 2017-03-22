@@ -140,4 +140,57 @@ footer {
     border: none;
     border-radius: 3px; }
 
+@media screen and (max-width: 700px) {
+  header {
+    text-align: center; }
+    header nav {
+      margin: auto;
+      text-align: center; }
+      header nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+        width: auto; }
+        header nav ul li {
+          width: 100%; }
+          header nav ul li a {
+            width: inherit; }
+    header .fa {
+      padding: 0;
+      float: none;
+      margin: 1em; }
+    header #headerContent {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+      padding: 0; }
+      header #headerContent button {
+        margin: auto;
+        padding: 1em; }
+
+  img {
+    width: 100%; }
+
+  .otherpic {
+    width: 12%; }
+
+  main section {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+
+  footer {
+    text-align: center; }
+
+  #product #price p {
+    margin: 0; }
+
+  #panier {
+    text-align: center; }
+    #panier #placeorder span {
+      margin: 0 3em; } }
+
 /*# sourceMappingURL=style.css.map */

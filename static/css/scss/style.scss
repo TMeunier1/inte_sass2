@@ -235,3 +235,80 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 700px) {
+    header {
+        text-align: center;
+        nav {
+            margin: auto;
+            text-align: center;
+            ul {
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                padding: 0;
+                width: auto;
+                li {
+                    width: 100%;
+                    a {
+                        width: inherit;
+                    }
+                }
+            }
+        }
+
+        .fa {
+            padding: 0;
+            float: none;
+            @include margin(1em);
+        }
+        #headerContent {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            text-align: center;
+            padding: 0;
+            button {
+                margin: auto;
+                padding: 1em;
+            }
+        }
+    }
+    img {
+        width: 100%;
+    }
+
+    .otherpic {
+        width: 12%
+    }
+
+    main {
+        section {
+            margin: auto;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    #product {
+        #price {
+            p {
+                margin: 0;
+            }
+        }
+    }
+    #panier {
+        text-align: center;
+        #placeorder {
+            span {
+                @include margin(0 3em);
+            }
+        }
+    }
+
+}
