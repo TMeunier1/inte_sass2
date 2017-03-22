@@ -15,11 +15,13 @@ $beige: #a28f61;
     margin: $size;
 }
 
+@mixin margin-bot($size) {
+    margin-bottom: $size;
+}
+
 * {
     list-style-type: none;
 }
-
-
 
 .fa {
     @include fontsize(1.5em);
@@ -33,6 +35,7 @@ header {
     nav {
         text-align: center;
         margin-left: 5em;
+
         ul {
             display: flex;
             justify-content: space-around;
@@ -81,6 +84,7 @@ main {
 
     article {
         margin: 1em 0;
+
         section {
             background-color: $white;
             width: 92%;
@@ -100,6 +104,7 @@ main {
             }
         }
     }
+
     .buy {
         a,
         a:focus,
@@ -130,22 +135,41 @@ main {
 
 footer {
     background-color: #0f3e57;
+
     h3 {
         color: $white;
     }
+
     ul {
         padding: 0;
+
         li {
             color: $darkerWhite;
+
             p {
                 display: inline-block;
             }
         }
     }
+
     a,
     a:focus,
     a:hover,
     a:visited {
         @include link($darkerWhite);
+    }
+}
+
+#product {
+    #descriproduct {
+        border-bottom: 1px solid black;
+        @include margin-bot(3em);
+        .otherpic {
+            margin-left: 1em;
+        @include margin(1em 0 4em 1em);
+        }
+    }
+    #price {
+        
     }
 }

@@ -91,4 +91,11 @@ footer {
     color: #c9c4bf;
     text-decoration: none; }
 
+#product #descriproduct {
+  border-bottom: 1px solid black;
+  margin-bottom: 3em; }
+  #product #descriproduct .otherpic {
+    margin-left: 1em;
+    margin: 1em 0 4em 1em; }
+
 /*# sourceMappingURL=style.css.map */
