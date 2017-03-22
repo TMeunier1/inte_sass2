@@ -164,12 +164,29 @@ footer {
     #descriproduct {
         border-bottom: 1px solid black;
         @include margin-bot(3em);
+        img:not(.otherpic) {
+            margin-top: 2em;
+        }
         .otherpic {
             margin-left: 1em;
         @include margin(1em 0 4em 1em);
         }
     }
     #price {
-        
+        @include margin-bot(3em);
+        text-align: center;
+        span {
+            border: 1px solid black;
+            @include padding(2em);
+        }
+        p {
+            display: inline-block;
+            background-color: green;
+            @include padding(2em);
+        }
+
+        button {
+            @include padding(2em);
+        }
     }
 }
